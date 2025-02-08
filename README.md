@@ -4,13 +4,13 @@ A Local LLM-Powered Paper Reviewing Assistant
 
 ## 📌 Overview
 
-LocalLLM-PaperReviewer is a lightweight, privacy-friendly tool that utilizes a local large language model (LLM) to assist with academic paper reviews. It enables researchers to analyze, summarize, and critique papers efficiently without relying on cloud-based AI services.
+Need to review papers but have limited time? Concerned about maintaining academic integrity when uploading unpublished materials to commercial or open AI platforms? No worries—LocalLLM-PaperReviewer has you covered! LocalLLM-PaperReviewer is a lightweight, privacy-friendly tool that utilizes a local large language model (LLM) to assist with academic paper reviews. It enables researchers to analyze, summarize, and critique papers efficiently without relying on cloud-based AI services.
 
 Note: currently the repo has been only tested on Windows!
 
 ## ✨ Features
 
-✅ Runs Locally – No internet required, ensuring data privacy;
+✅ Runs Locally – No internet required, ensuring data privacy of unpublished scripts;
 
 ✅ File Upload Support – Upload research papers in pdf/doc format for context-aware analysis;
 
@@ -59,6 +59,25 @@ Before running the code, you may (and may not) need to activate the ollama servi
 ollama serve
 ```
 
-Then, your default browser should open a window like this:
+Then, your default browser should open a window like this.
 
-![Chatbot Interface](screenshot.png)
+<p align="center">
+  <img src="screenshot.png" width="800">
+</p>
+
+Here, you can upload files for LLM to process and ask questions. You can also change the LLM model and the number of relavant chunks.
+
+## 🖊 User Notes
+
+1. You don't have to upload PDF/DOC file first before chatting. In each conversation, you can only upload one PDF/DOC file.
+2. By default, the model retains the document content while remembering only the latest five chat exchanges. However, you can customize this behavior in the code.
+
+## 👤 About the Author
+
+**Yanming Xiu**  
+
+🔹 Ph.D. Student in ECE, Duke University
+
+🔹 Research interest: Augmented Reality, Computer Vision, Scene Understanding.
+
+ 
