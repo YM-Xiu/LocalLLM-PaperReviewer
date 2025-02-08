@@ -48,15 +48,15 @@ pip install langchain requests gradio fitz frontend pymupdf langchain_ollama lan
 conda install -c conda-forge faiss-gpu / conda install -c conda-forge faiss-cpu
 ```
 
+Before running the code, you may (and may not) need to activate the ollama service in the command prompt:
+```markdown
+ollama serve
+```
+
 Then, get into the repo folder:
 ```markdown
 cd LocalLLM-PaperReviewer
 python localllm.py
-```
-
-Before running the code, you may (and may not) need to activate the ollama service in the command prompt:
-```markdown
-ollama serve
 ```
 
 Then, your default browser should open a window like this.
