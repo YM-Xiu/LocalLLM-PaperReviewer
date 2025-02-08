@@ -10,7 +10,7 @@ Note: currently the repo has been only tested on Windows!
 
 ## ✨ Features
 
-✅ Runs Locally – No internet required, ensuring data privacy of unpublished scripts;
+✅ Runs Locally – No internet required, ensuring data privacy of unpublished materials;
 
 ✅ File Upload Support – Upload research papers in pdf/doc format for context-aware analysis;
 
