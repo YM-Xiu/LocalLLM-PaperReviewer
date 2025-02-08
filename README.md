@@ -6,6 +6,8 @@ A Local LLM-Powered Paper Reviewing Assistant
 
 LocalLLM-PaperReviewer is a lightweight, privacy-friendly tool that utilizes a local large language model (LLM) to assist with academic paper reviews. It enables researchers to analyze, summarize, and critique papers efficiently without relying on cloud-based AI services.
 
+Note: currently the repo has been only tested on Windows!
+
 ## ✨ Features
 
 ✅ Runs Locally – No internet required, ensuring data privacy;
@@ -41,6 +43,7 @@ conda create -n localllm python=3.10
 
 Install the dependencies: (for different devices, use the faiss version that suits your device)
 ```markdown
+conda activate localllm
 pip install langchain requests gradio fitz frontend pymupdf langchain_ollama langchain_community
 conda install -c conda-forge faiss-gpu / conda install -c conda-forge faiss-cpu
 ```
@@ -56,3 +59,6 @@ Before running the code, you may (and may not) need to activate the ollama servi
 ollama serve
 ```
 
+Then, your default browser should open a window like this:
+
+![Chatbot Interface](images/screenshot.png)
