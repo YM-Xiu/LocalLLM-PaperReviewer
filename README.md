@@ -61,4 +61,4 @@ ollama serve
 
 Then, your default browser should open a window like this:
 
-![Chatbot Interface](images/screenshot.png)
+![Chatbot Interface](screenshot.png)
