@@ -18,7 +18,9 @@ Note: currently the repo has been only tested on Windows!
 
 ✅ Multi-Turn Conversations – Keeps track of previous discussions for coherent feedback;
 
-✅ Custom Model Selection – Choose between different LLMs, like deepseek-r1:8b.
+✅ Custom Model Selection – Choose between different LLMs, like deepseek-r1:8b;
+
+⏳ Chat history storage - Allow users to retrieve previous conversations; (in progress)
 
 
 ## 🔧 Setup
