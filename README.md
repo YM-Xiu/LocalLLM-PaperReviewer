@@ -31,7 +31,7 @@ ollama pull deepseekr1-14b
 
 Clone the repo:
 ```markdown
-git clone https://github.com/ym-xiu/LocalLLM-PaperReviewer.git
+git clone https://github.com/YM-Xiu/LocalLLM-PaperReviewer.git
 ```
 
 Create python environment with Anaconda: (assume you already have anaconda and pip ready)
@@ -47,7 +47,12 @@ conda install -c conda-forge faiss-gpu / conda install -c conda-forge faiss-cpu
 
 Then, get into the repo folder:
 ```markdown
-cd
+cd LocalLLM-PaperReviewer
 python localllm.py
+```
+
+Before running the code, you may (and may not) need to activate the ollama service in the command prompt:
+```markdown
+ollama serve
 ```
 
