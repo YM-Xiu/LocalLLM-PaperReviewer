@@ -38,7 +38,7 @@ Clone the repo:
 git clone https://github.com/YM-Xiu/LocalLLM-PaperReviewer.git
 ```
 
-Create python environment with Anaconda: (assume you already have anaconda and pip ready)
+Create the virtual environment with Anaconda: (assume you already have anaconda and pip ready)
 ```markdown
 conda create -n localllm python=3.10
 ```
@@ -79,7 +79,7 @@ Here, you can upload files for LLM to process and ask questions. You can also ch
 
 **Yanming Xiu**  
 
-🔹 Ph.D. Student in ECE, Duke University
+🔹 Ph.D. Student at ECE, Duke University
 
 🔹 Research interest: Augmented Reality, Computer Vision, Scene Understanding.
 
