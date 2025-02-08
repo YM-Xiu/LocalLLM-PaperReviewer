@@ -71,6 +71,7 @@ Here, you can upload files for LLM to process and ask questions. You can also ch
 
 1. You don't have to upload PDF/DOC file first before chatting. In each conversation, you can only upload one PDF/DOC file.
 2. By default, the model retains the document content while remembering only the latest five chat exchanges. However, you can customize this behavior in the code.
+3. You can also install other models that you like from ollama. To update the model list, find **AVAILABLE_MODELS** in localllm.py.
 
 ## 👤 About the Author
 
