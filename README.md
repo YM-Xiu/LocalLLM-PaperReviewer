@@ -38,7 +38,7 @@ Clone the repo:
 git clone https://github.com/YM-Xiu/LocalLLM-PaperReviewer.git
 ```
 
-Create the virtual environment with Anaconda: (assume you already have anaconda and pip ready)
+Create the virtual environment with Anaconda: (assume you already have Anaconda and Pip ready)
 ```markdown
 conda create -n localllm python=3.10
 ```
@@ -50,7 +50,7 @@ pip install langchain requests gradio fitz frontend pymupdf langchain_ollama lan
 conda install -c conda-forge faiss-gpu / conda install -c conda-forge faiss-cpu
 ```
 
-Before running the code, you may (and may not) need to activate the ollama service in the command prompt:
+Before running the code, you may (and may not) need to activate the Ollama service in the command prompt:
 ```markdown
 ollama serve
 ```
@@ -73,7 +73,7 @@ Here, you can upload files for LLM to process and ask questions. You can also ch
 
 1. You don't have to upload PDF/DOC file first before chatting. In each conversation, you can only upload one PDF/DOC file.
 2. By default, the model retains the document content while remembering only the latest five chat exchanges. However, you can customize this behavior in the code.
-3. You can also install other models that you like from ollama. To update the model list, find **AVAILABLE_MODELS** in localllm.py.
+3. You can also install other models that you like from Ollama. To update the model list, find **AVAILABLE_MODELS** in localllm.py.
 
 ## 👤 About the Author
 
